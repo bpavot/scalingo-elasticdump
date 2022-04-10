@@ -1,0 +1,29 @@
+{
+  "name": "Elasticdump",
+  "description": "Run Elasticdump on Scalingo",
+  "keywords": [
+    "elasticsearch", "elastic", "elasticdump"
+  ],
+  "website": "https://github.com/elasticsearch-dump/elasticsearch-dump",
+  "repository": "https://github.com/elasticsearch-dump/elasticsearch-dump",
+  "success_url": "/",
+  "env": {
+    "INPUT": {
+      "description": "Input param to elasticdump",
+      "value": "",
+      "required": true
+    },
+    "OUTPUT": {
+      "description": "Output param to elasticdump",
+      "value": "",
+      "required": true
+    },
+    "TYPE": {
+      "description": "Type param to elasticdump",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [
+  ]
+}
